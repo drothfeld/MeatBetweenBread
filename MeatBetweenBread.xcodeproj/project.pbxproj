@@ -124,6 +124,7 @@
 		B01D9808221108F700417531 = {
 			isa = PBXGroup;
 			children = (
+				B01D982922110EBC00417531 /* README.md */,
 				B01D9813221108F700417531 /* MeatBetweenBread */,
 				B01D9812221108F700417531 /* Products */,
 			);
@@ -149,7 +150,6 @@
 				B01D981D221108F800417531 /* LaunchScreen.storyboard */,
 				B01D9820221108F900417531 /* Info.plist */,
 				B01D982B22110FFE00417531 /* .gitignore */,
-				B01D982922110EBC00417531 /* README.md */,
 			);
 			path = MeatBetweenBread;
 			sourceTree = "<group>";
