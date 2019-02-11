@@ -18,6 +18,7 @@
 		B01D988B221112F600417531 /* select_image_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B01D9888221112F500417531 /* select_image_button.png */; };
 		B01D988D221112F600417531 /* save_image_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B01D988A221112F500417531 /* save_image_button.png */; };
 		B01D98922211152A00417531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01D9818221108F700417531 /* Main.storyboard */; };
+		B01D98942211168A00417531 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D98932211168A00417531 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		B01D9886221112CA00417531 /* camera_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_button.png; sourceTree = "<group>"; };
 		B01D9888221112F500417531 /* select_image_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select_image_button.png; sourceTree = "<group>"; };
 		B01D988A221112F500417531 /* save_image_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save_image_button.png; sourceTree = "<group>"; };
+		B01D98932211168A00417531 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				B01D982D2211100600417531 /* devOnly */,
 				B01D9814221108F700417531 /* AppDelegate.swift */,
 				B01D9816221108F700417531 /* ViewController.swift */,
+				B01D98932211168A00417531 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
 				B01D9818221108F700417531 /* Main.storyboard */,
 				B01D981B221108F800417531 /* Assets.xcassets */,
 				B01D982622110E5000417531 /* SandwichOrBurgerClassifier.mlmodel */,
@@ -318,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01D98942211168A00417531 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				B01D9817221108F700417531 /* ViewController.swift in Sources */,
 				B01D9815221108F700417531 /* AppDelegate.swift in Sources */,
 				B01D982722110E5000417531 /* SandwichOrBurgerClassifier.mlmodel in Sources */,
