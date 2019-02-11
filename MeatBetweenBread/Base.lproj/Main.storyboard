@@ -38,9 +38,15 @@
                                 <items>
                                     <barButtonItem image="select_image_button.png" width="218" id="nTQ-LG-cCV" userLabel="Select Image Bar Button">
                                         <color key="tintColor" red="0.31901639700000001" green="0.6926065683" blue="0.76472109560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="SelectImageButtonPressed:" destination="BYZ-38-t0r" id="SI1-DF-lB4"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem enabled="NO" image="save_image_button.png" id="VJG-25-hYt" userLabel="Save Image Bar Button">
                                         <color key="tintColor" red="0.31901639700000001" green="0.6926065683" blue="0.76472109560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="SaveImageButtonPressed:" destination="BYZ-38-t0r" id="ij8-es-6gq"/>
+                                        </connections>
                                     </barButtonItem>
                                 </items>
                                 <color key="barTintColor" red="0.2784313725" green="0.28469878440000002" blue="0.3607940972" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -56,11 +62,23 @@
                                 <rect key="frame" x="294" y="622" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="camera_button.png"/>
+                                <connections>
+                                    <action selector="CameraButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d5m-H7-4Ze"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="ClassificationLabel" destination="KXQ-YD-sy5" id="fa9-Ki-kfp"/>
+                        <outlet property="ImageView" destination="YTP-ki-j1B" id="qaK-HQ-jCz"/>
+                        <outlet property="OpenCameraButton" destination="aCK-Hj-CwJ" id="WAf-rr-NRX"/>
+                        <outlet property="SaveImageToolbarButton" destination="VJG-25-hYt" id="grE-Dg-bDk"/>
+                        <outlet property="SelectImageToolbarButton" destination="VJG-25-hYt" id="DtE-45-zhk"/>
+                        <outlet property="Toolbar" destination="qla-2D-LdY" id="WWm-2k-Uft"/>
+                        <outlet property="UntouchedMessageLabel" destination="5bR-8j-NbL" id="5B6-jm-KCJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
