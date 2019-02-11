@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Needs access to photo library to let user select a photo to be analyzed</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Needs access to photo library to save images.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Needs access to the camera to take pictures of cereal boxes.</string>
 </dict>
 </plist>
